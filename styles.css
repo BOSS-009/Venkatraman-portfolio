@@ -216,6 +216,19 @@ footer {
     transform: scale(1.1); /* Slight zoom on hover */
 }
 
+/* Highlight Image Styling */
+.highlight-image img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.highlight-image img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
 /* Team Section Styling */
 .team {
     text-align: center;
