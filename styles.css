@@ -215,3 +215,76 @@ footer {
 .highlight-image img:hover {
     transform: scale(1.1); /* Slight zoom on hover */
 }
+
+/* Team Section Styling */
+.team {
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.team-members {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.team-member, .research-programme {
+    margin-bottom: 30px;
+}
+
+.team-member h2, .research-programme h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.member-details {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: flex-start;
+}
+
+.member-image {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.member-image img {
+    width: 150px; /* Square size */
+    height: 150px; /* Square size */
+    object-fit: cover;
+    border: 3px solid #007BFF;
+    border-radius: 10px; /* Square border */
+}
+
+.member-image h3 {
+    margin-top: 10px;
+    color: #007BFF;
+    font-size: 1.2em;
+}
+
+.member-details p {
+    margin: 0;
+    font-size: 0.95em;
+    line-height: 1.6;
+}
+
+.research-programme p {
+    margin-bottom: 10px;
+    font-size: 0.95em;
+}
+
+.research-programme a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.research-programme a:hover {
+    text-decoration: underline;
+}
